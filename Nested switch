@@ -1,0 +1,31 @@
+switch(variable/expression)
+ {
+   case value1 :
+      // code inside the case value1
+      break; // optional
+   
+   case value2 :
+      // code inside the case value2 
+      break; // optional
+   case value3 : 
+   switch(variable/expression)
+   {
+      case valueOne :
+         // code inside the case valueOne 
+         break; // optional
+   
+      case valueTwo :
+         // code inside the case valueTwo 
+         break; // optional
+      .
+      .
+      .
+      default : 
+         // code inside the default case .
+   }
+   .
+   .
+   .
+    default : 
+           // code inside the default case .
+}
